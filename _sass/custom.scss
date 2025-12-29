@@ -1,0 +1,55 @@
+/* 
+ * 배경색 파스텔 톤으로 변경
+ */
+
+/* 전체 페이지 배경 */
+body {
+  background-color: #FFF8F0 !important; /* 따뜻한 크림색 파스텔 */
+}
+
+/* 사이드바 배경 */
+#sidebar,
+.sidebar {
+  background-color: #F5F0FF !important; /* 연한 라벤더 파스텔 */
+}
+
+/* 메인 콘텐츠 영역 배경 */
+#main-wrapper,
+.main-wrapper,
+#main {
+  background-color: #FFF8F0 !important; /* 따뜻한 크림색 파스텔 */
+}
+
+/* 카드/포스트 배경 */
+.post,
+.card,
+.content,
+.post-content {
+  background-color: #FFFFFF !important; /* 깔끔한 흰색 */
+}
+
+/* 다크 모드일 때도 파스텔 톤 유지 */
+[data-theme="dark"],
+.dark {
+  body {
+    background-color: #FFF8F0 !important;
+  }
+  
+  #sidebar,
+  .sidebar {
+    background-color: #F5F0FF !important;
+  }
+  
+  #main-wrapper,
+  .main-wrapper,
+  #main {
+    background-color: #FFF8F0 !important;
+  }
+  
+  .post,
+  .card,
+  .content {
+    background-color: #FFFFFF !important;
+  }
+}
+
