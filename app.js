@@ -31,7 +31,7 @@ function validLink(value) {
 
 function renderProfile(profile) {
   const name = profile.name || "이름";
-  document.title = `${name} | Security Profile`;
+  document.title = "9omau2";
   $("#profile-initials").textContent = profile.initials || "HN";
   if (profile.resumePdf) {
     try {
