@@ -68,7 +68,7 @@ function renderProfile(profile) {
   $("#profile-handle").textContent = profile.handle || "";
   $("#profile-role").textContent = profile.role || "";
   $("#profile-intro").textContent = profile.intro || "";
-  $("#footer-name").textContent = name;
+  $("#footer-name").textContent = profile.footerName || name;
 
   for (const item of profile.highlights || []) {
     $("#profile-highlights").append(makeElement("li", item));
