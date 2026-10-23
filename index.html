@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0e1118" />
+    <meta name="description" content="보안 공부와 활동을 정리한 개인 홈페이지" />
+    <title>보안 공부 기록</title>
+    <script>
+      try {
+        if (localStorage.getItem("security-profile-theme") === "light") document.documentElement.dataset.theme = "light";
+      } catch {}
+    </script>
+    <link rel="stylesheet" href="./style.css?v=3" />
+    <script src="./app.js?v=2" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 이동</a>
+    <div class="page-layout">
+      <nav id="page-toc" class="page-toc" aria-label="페이지 목차" hidden>
+        <div class="toc-track">
+          <span class="toc-progress" aria-hidden="true"></span>
+          <ol id="toc-list" class="toc-list"></ol>
+        </div>
+      </nav>
+      <div class="site-wrap">
+        <header class="site-header">
+          <span class="site-label">SECURITY PROFILE</span>
+          <div class="header-actions">
+            <a id="resume-download" class="resume-download" download="resume.pdf" aria-label="PDF 파일 다운로드" title="PDF" hidden>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v11m-4-4 4 4 4-4M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" />
+              </svg>
+              <span>PDF</span>
+            </a>
+            <label class="theme-switch">
+              <input id="theme-toggle" type="checkbox" role="switch" aria-label="흰색 테마" />
+              <span class="switch-track" aria-hidden="true"><span class="switch-thumb"></span></span>
+            </label>
+          </div>
+        </header>
+
+        <main id="main">
+          <section id="about" class="hero" aria-labelledby="profile-name">
+            <div class="hero-heading">
+              <div class="identity">
+                <p class="kicker">ABOUT ME</p>
+                <h1 id="profile-name">불러오는 중</h1>
+                <p id="profile-handle" class="handle"></p>
+                <nav id="profile-links" class="social-links" aria-label="소셜 네트워크 링크"></nav>
+              </div>
+              <div class="portrait" aria-hidden="true">
+                <span id="profile-initials">HN</span>
+                <img id="profile-image" alt="" hidden />
+              </div>
+            </div>
+            <p id="profile-role" class="role"></p>
+            <p id="profile-intro" class="intro"></p>
+            <ul id="profile-highlights" class="highlights"></ul>
+          </section>
+
+          <div id="sections"></div>
+          <p id="error-message" class="error-message" role="alert" hidden></p>
+        </main>
+
+        <footer class="site-footer">
+          <span id="footer-name"></span>
+          <span>Last updated <time id="updated-at"></time></span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

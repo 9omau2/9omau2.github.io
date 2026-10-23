@@ -1,0 +1,158 @@
+{
+  "updatedAt": "2026.10",
+  "profile": {
+    "name": "김현주",
+    "initials": "9omau2",
+    "image": "./assets/profile.jpg",
+    "resumePdf": "./assets/resume.pdf",
+    "handle": "aka. 9omau2",
+    "role": "Rev · Web · App",
+    "intro": "CUK CSE '24 | CAT-Security | Focusing on Reversing, Web, and Mobile App Security",
+    "highlights": [
+      "악성코드 분석 및 개발",
+      "AssaultCube hack 분석 및 개발",
+      "안드로이드 솔루션 우회 및 취약점 분석",
+      "Web 취약점 분석 및 Penetration Test",
+      "CTF 대회 출전 및 문제 출제"
+    ],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/9omau2" },
+      { "label": "Blog", "url": "" },
+      { "label": "Email", "url": "mailto:ojic0906.00@gmail.com" },
+      { "label": "HolyShield", "url": "https://www.holyshield2027.com/" }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Education",
+      "items": [
+        {
+          "date": "2024.03 – 2028.02 (Expected)",
+          "title": "The Catholic University of Korea",
+          "subtitle": "Computer Science & Information Engineering",
+          "description": "가톨릭대학교 보안 동아리 CAT-Security로 활동하며, 교내 침해사고 대응 및 대외 활동 진행중. "
+        }
+      ]
+    },
+    {
+      "title": "Activity",
+      "items": [
+        {
+          "date": "2026.10",
+          "title": "제6회 모의해킹 경진대회 WooriCON",
+          "subtitle": "CAT-Security",
+          "tags": ["대상"],
+          "url": ""
+        },
+        {
+          "date": "2026.08",
+          "title": "DEF CON 34 CTF Finalist",
+          "subtitle": "Team.D0kdo",
+          "tags": ["12th"],
+          "url": ""
+        },
+        {
+          "date": "2026.06",
+          "title": "GPN CTF 2026",
+          "subtitle": "The SEVEN",
+          "tags": ["7th"],
+          "url": ""
+        },
+        {
+          "date": "2026.05",
+          "title": "NDIAS Automotive/IoT CTF",
+          "subtitle": "Team.D0kdo",
+          "tags": ["1th"],
+          "url": ""
+        },
+        {
+          "date": "2026.05",
+          "title": "BKISC CTF",
+          "subtitle": "Team.D0kdo",
+          "tags": ["2th"],
+          "url": ""
+        },
+        {
+          "date": "2026.04",
+          "title": "UMDCTF",
+          "subtitle": "Team.D0kdo",
+          "tags": ["2th"],
+          "url": ""
+        },
+        {
+          "date": "2025.12",
+          "title": "HolyShield 2025 Contest & Conference",
+          "subtitle": "CAT-Security",
+          "tags": ["출제 · 운영"],
+          "url": ""
+        },
+        {
+          "date": "2025.12",
+          "title": "CyKor CTF",
+          "subtitle": "@everyone",
+          "tags": ["6th"],
+          "url": ""
+        },
+        {
+          "date": "2025.11",
+          "title": "SecureX Challenge",
+          "subtitle": "SafeCat",
+          "tags": ["finalist"],
+          "url": ""
+        },
+        {
+          "date": "2025.11",
+          "title": "ACDC CTF",
+          "subtitle": "U1tr0n",
+          "tags": ["10th"],
+          "url": ""
+        },
+        {
+          "date": "2025.11",
+          "title": "WhiteHat 2025 CTF",
+          "subtitle": "CAT-Security",
+          "tags": ["8th"],
+          "url": ""
+        },
+        {
+          "date": "2025.08",
+          "title": "Hacking CAMP CTF",
+          "subtitle": "H4A4",
+          "tags": ["1th", "Sincere Hacker"],
+          "url": ""
+        },
+        {
+          "date": "2025.08",
+          "title": "HSPACE Club League 2025",
+          "subtitle": "CAT-Security",
+          "tags": ["5th"],
+          "url": ""
+        },
+        {
+          "date": "2024",
+          "title": "HSPACE Club League 2024",
+          "subtitle": "CAT-Security",
+          "tags": ["11th"],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Bug Bounty",
+      "items": [
+        {
+          "date": "2026",
+          "title": "NBB-2026-0255",
+          "description": "Cross-site scripting (XSS)",
+          "url": ""
+        },
+        {
+          "date": "2025",
+          "title": "NBB-2026-0261",
+          "description": "Cross-site scripting (XSS)",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
