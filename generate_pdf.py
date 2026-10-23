@@ -67,7 +67,7 @@ def draw_page(canvas, doc):
     canvas.line(MARGIN, 45, PAGE_WIDTH - MARGIN, 45)
     canvas.setFont("Malgun", 7.5)
     canvas.setFillColor(ACCENT)
-    canvas.drawString(MARGIN, PAGE_HEIGHT - 37, "SECURITY PROFILE")
+    canvas.drawString(MARGIN, PAGE_HEIGHT - 37, "PROFILE")
     canvas.drawRightString(PAGE_WIDTH - MARGIN, PAGE_HEIGHT - 37, "RESUME")
     canvas.setFillColor(BODY)
     canvas.drawString(MARGIN, 30, f"Updated {DATA.get('updatedAt', '')}")
